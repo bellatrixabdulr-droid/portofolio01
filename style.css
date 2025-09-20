@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#home {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+#about h2, #projects h2, #contact h2 {
+    font-weight: bold;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bellatrix abdul rahman</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="py-5 text-center">
+        <div class="container">
+            <img src="https://via.placeholder.com/150" alt="Foto Profil" class="rounded-circle mb-4">
+            <h1>Halo, Saya bellatrix abdul rahman</h1>
+            <p class="lead">Seorang Pengembang Web yang Bersemangat.</p>
+            <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+        </div>
+    </section>
+
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Tentang Saya</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <p>
+                        Saya adalah seorang pengembang web dengan fokus pada pembuatan situs yang bersih dan efisien. Saya memiliki pengalaman dalam HTML, CSS, JavaScript, dan framework seperti Bootstrap.
+                    <ul class="list-unstyled">
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript & jQuery</li>
+                        <li>Bootstrap</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Proyek Saya</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/bd/61/72/bd6172951c03813bdf043d30bb63c737.jpg" class="card-img-top" alt="Proyek 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyek 1</h5>
+                            <p class="card-text">Seorang programmer adalah seorang profesional yang ahli dalam menulis, menguji, dan memelihara kode program komputer. Mereka bekerja untuk menciptakan beragam aplikasi, mulai dari situs web, aplikasi seluler, hingga sistem operasi yang kompleks.</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#projectModal1">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/bd/61/72/bd6172951c03813bdf043d30bb63c737.jpg" class="card-img-top" alt="Proyek 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyek 2</h5>
+                            <p class="card-text">Seorang programmer adalah seorang pemecah masalah logis. Mereka menganalisis masalah, merancang algoritma, dan menerjemahkannya ke dalam bahasa pemrograman. Kemampuan berpikir analitis dan perhatian terhadap detail adalah kunci keberhasilan dalam profesi ini</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#projectModal2">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/bd/61/72/bd6172951c03813bdf043d30bb63c737.jpg" class="card-img-top" alt="Proyek 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyek 3</h5>
+                            <p class="card-text">Deskripsi singkat proyek ketigaSeorang programmer adalah seorang pembangun teknologi masa depan. Mereka tidak hanya mengikuti tren, tetapi juga menciptakan inovasi yang mengubah cara kita hidup dan bekerja. Dengan keahlian mereka, mereka mengubah ide menjadi kenyataan digital. </p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#projectModal3">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Hubungi Saya</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal1Label">Detail Proyek 1</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="projek.jpg" class="img-fluid mb-3" alt="Proyek 1 Detail">
+                    <p>Deskripsi detail tentang proyek pertama. Jelaskan tantangan, solusi, dan teknologi yang digunakan.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-labelledby="projectModal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal2Label">Detail Proyek 2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="projek.jpg" class="img-fluid mb-3" alt="Proyek 2 Detail">
+                    <p>Deskripsi detail tentang proyek kedua. Jelaskan tantangan, solusi, dan teknologi yang digunakan.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-labelledby="projectModal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal3Label">Detail Proyek 3</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/600x400" class="img-fluid mb-3" alt="Proyek 3 Detail">
+                    <p>Deskripsi detail tentang proyek ketiga. Jelaskan tantangan, solusi, dan teknologi yang digunakan.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
